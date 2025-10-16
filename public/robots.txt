@@ -1,0 +1,19 @@
+# robots.txt pour Électricien Hettange-Grande
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://electricien-hettange.fr/sitemap.xml
+
+# Disallow admin et fichiers système
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl-delay pour les bots agressifs
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
