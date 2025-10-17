@@ -45,7 +45,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'disjoncteur-qui-saute-causes-solutions',
     title: 'Disjoncteur qui Saute : 7 Causes et Solutions Immédiates',
-    metaDescription: 'Votre disjoncteur saute régulièrement ? Découvrez les 7 causes principales et les solutions pour y remédier. Intervention 24/7 à Dudelange.',
+    metaDescription: 'Votre disjoncteur saute régulièrement ? Découvrez les 7 causes principales et les solutions pour y remédier. Intervention 24/7 à Pétange.',
     excerpt: 'Un disjoncteur qui saute régulièrement est un problème électrique courant mais qui ne doit pas être pris à la légère. Découvrez les causes et solutions.',
     category: 'Dépannage Urgence',
     readTime: 8,
@@ -56,7 +56,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'pourquoi mon disjoncteur saute',
       'disjoncteur saute régulièrement',
       'disjoncteur déclenche',
-      'électricien Dudelange',
+      'électricien Pétange',
     ],
     content: {
       sections: [], // Contenu rendu par le composant React
@@ -66,7 +66,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'panne-electrique-totale-que-faire',
     title: 'Panne Électrique Totale : Que Faire en Attendant l\'Électricien ?',
-    metaDescription: 'Plus d\'électricité dans toute la maison ? Découvrez les gestes à faire en urgence et quand appeler un électricien à Dudelange.',
+    metaDescription: 'Plus d\'électricité dans toute la maison ? Découvrez les gestes à faire en urgence et quand appeler un électricien à Pétange.',
     excerpt: 'Une panne électrique totale peut survenir à tout moment. Voici les bons réflexes à avoir et quand faire appel à un professionnel.',
     category: 'Dépannage Urgence',
     readTime: 6,
@@ -77,7 +77,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'plus d\'électricité maison',
       'coupure électricité',
       'dépannage électrique urgence',
-      'électricien urgence Bouches-du-Rhône',
+      'électricien urgence Luxembourg',
     ],
     content: {
       sections: [],

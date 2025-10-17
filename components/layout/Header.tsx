@@ -54,7 +54,7 @@ export const Header = () => {
                   Électricien
                 </span>
                 <span className="text-sm text-primary font-medium">
-                  Dudelange
+                  Pétange
                 </span>
               </div>
             </Link>

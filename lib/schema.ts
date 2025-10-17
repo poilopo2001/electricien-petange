@@ -5,10 +5,10 @@ export function generateLocalBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'Electrician',
     name: COMPANY_INFO.name,
-    description: 'Électricien professionnel à Dudelange. Dépannage 24/7, installation, mise aux normes.',
-    image: 'https://elec-dudelange.lu/logo.png',
-    '@id': 'https://elec-dudelange.lu',
-    url: 'https://elec-dudelange.lu',
+    description: 'Électricien professionnel à Pétange. Dépannage 24/7, installation, mise aux normes.',
+    image: 'https://electricien-petange.lu/logo.png',
+    '@id': 'https://electricien-petange.lu',
+    url: 'https://electricien-petange.lu',
     telephone: COMPANY_INFO.phone,
     email: COMPANY_INFO.email,
     address: {
@@ -41,7 +41,7 @@ export function generateLocalBusinessSchema() {
     priceRange: '$$',
     areaServed: {
       '@type': 'City',
-      name: 'Dudelange',
+      name: 'Pétange',
     },
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -102,7 +102,7 @@ export function generateServiceSchema(
     },
     areaServed: {
       '@type': 'City',
-      name: 'Dudelange',
+      name: 'Pétange',
     },
     description: description,
     ...(priceRange && {
