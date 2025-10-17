@@ -43,9 +43,9 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   }
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://elec-dudelange.lu' },
-    { name: 'Services', url: 'https://elec-dudelange.lu/nos-services' },
-    { name: service.title, url: `https://elec-dudelange.lu/${service.slug}` },
+    { name: 'Accueil', url: 'https://electricien-petange.vercel.app' },
+    { name: 'Services', url: 'https://electricien-petange.vercel.app/nos-services' },
+    { name: service.title, url: `https://electricien-petange.vercel.app/${service.slug}` },
   ]);
 
   const serviceSchema = generateServiceSchema(

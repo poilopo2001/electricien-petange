@@ -61,7 +61,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       name: COMPANY_INFO.name,
       logo: {
         '@type': 'ImageObject',
-        url: 'https://elec-dudelange.lu/logo.png',
+        url: 'https://electricien-petange.vercel.app/logo.png',
       },
     },
   };

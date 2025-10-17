@@ -197,9 +197,9 @@ export default function MentionsLegalesPage() {
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 Tout litige en relation avec l&apos;utilisation du site{' '}
-                <strong>elec-dudelange.lu</strong> est soumis au droit français. L&apos;utilisateur
+                <strong>electricien-petange.vercel.app</strong> est soumis au droit luxembourgeois. L&apos;utilisateur
                 ainsi que {COMPANY_INFO.name} acceptent de se soumettre à la compétence exclusive
-                des tribunaux français en cas de litige.
+                des tribunaux luxembourgeois en cas de litige.
               </p>
             </section>
 

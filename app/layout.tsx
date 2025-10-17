@@ -9,7 +9,7 @@ import { COMPANY_INFO } from '@/lib/constants';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://elec-dudelange.lu'),
+  metadataBase: new URL('https://electricien-petange.vercel.app'),
   title: {
     default: 'Électricien Pétange | Dépannage 24/7 | Intervention < 2h',
     template: '%s | Électricien Pétange',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   keywords: [
     'électricien Pétange',
     'dépannage électrique Pétange',
-    'électricien urgence L-3401',
-    'installation électrique Bouches-du-Rhône',
+    'électricien urgence L-4701',
+    'installation électrique Luxembourg',
     'mise aux normes électrique',
     'borne recharge Pétange',
   ],
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'fr_FR',
-    url: 'https://elec-dudelange.lu',
+    locale: 'fr_LU',
+    url: 'https://electricien-petange.vercel.app',
     siteName: COMPANY_INFO.name,
     title: 'Électricien Pétange | Dépannage 24/7',
     description: 'Intervention rapide en moins de 2h. Dépannage, installation, mise aux normes. Devis gratuit.',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://elec-dudelange.lu',
+    canonical: 'https://electricien-petange.vercel.app',
   },
   verification: {
     google: 'your-google-verification-code',
