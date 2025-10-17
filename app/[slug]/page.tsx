@@ -177,7 +177,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                     {service.description}
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Notre équipe d&apos;électriciens qualifiés intervient à Dudelange et dans
+                    Notre équipe d&apos;électriciens qualifiés intervient à Pétange et dans
                     un rayon de 30km. Nous utilisons du matériel professionnel de haute qualité
                     et respectons strictement les normes en vigueur.
                   </p>

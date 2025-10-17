@@ -16,7 +16,7 @@ export const Hero = () => {
       <div className="absolute inset-0 z-0">
         <Image
           src={getImageUrl('hero-background')}
-          alt="Électricien professionnel Dudelange"
+          alt="Électricien professionnel Pétange"
           fill
           className="object-cover"
           priority
@@ -65,7 +65,7 @@ export const Hero = () => {
           >
             <Clock className="h-5 w-5 text-accent" />
             <span className="text-white font-semibold">
-              Urgence 24/7 • Intervention &lt; 2h
+              Astreinte 24/7 • Arrivée sous 2h
             </span>
           </motion.div>
 
@@ -77,7 +77,7 @@ export const Hero = () => {
             className="text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-extrabold text-white mb-6 leading-none"
           >
             Électricien à<br />
-            <span className="text-accent">Dudelange</span>
+            <span className="text-accent">Pétange</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -87,9 +87,9 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto"
           >
-            Dépannage électrique d&apos;urgence, installation complète et mise aux normes.
-            Plus de {new Date().getFullYear() - COMPANY_INFO.yearFounded} ans d&apos;expérience
-            au service des particuliers.
+            Réparations urgentes, installations neuves et conformité réglementaire.
+            Plus de {new Date().getFullYear() - COMPANY_INFO.yearFounded} années d&apos;expertise
+            au service des habitants et entreprises de la région.
           </motion.p>
 
           {/* Social Proof */}
@@ -127,7 +127,7 @@ export const Hero = () => {
                 size="xl"
                 className="w-full sm:w-auto"
               >
-                Obtenir mon Devis Gratuit
+                Recevoir mon Estimation Gratuite
               </Button>
             </Link>
             <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, '')}`}>
@@ -149,7 +149,7 @@ export const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="mt-12 text-white/70 text-sm"
           >
-            ✓ Devis gratuit sous 48h • ✓ Intervention rapide • ✓ Tarifs transparents
+            ✓ Chiffrage gratuit en 48h • ✓ Réactivité assurée • ✓ Prix clairs et honnêtes
           </motion.div>
         </div>
       </div>

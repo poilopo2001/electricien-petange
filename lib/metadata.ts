@@ -1,23 +1,23 @@
 import { Metadata } from 'next';
 import { COMPANY_INFO } from './constants';
 
-const baseUrl = 'https://elec-dudelange.lu';
+const baseUrl = 'https://electricien-petange.lu';
 
 export const PAGE_METADATA = {
   home: {
-    title: `Électricien Dudelange | Dépannage 24/7 | Intervention < 2h`,
-    description: `Électricien professionnel à Dudelange. Dépannage électrique d'urgence 24/7, installation complète, mise aux normes. Intervention rapide en moins de 2h. Devis gratuit. ${COMPANY_INFO.yearFounded} ans d'expérience.`,
+    title: `Électricien Pétange | Urgence 24/7 | Réponse < 2h`,
+    description: `Votre électricien à Pétange et dans le sud du Luxembourg. Service d'urgence 24/7, installations neuves, rénovations et mises en conformité. Intervention garantie sous 2 heures. Devis gratuit personnalisé. Plus de ${new Date().getFullYear() - COMPANY_INFO.yearFounded} ans au service des particuliers et entreprises de la région du Minett.`,
     keywords: [
-      'électricien Dudelange',
-      'dépannage électrique Dudelange',
-      'électricien urgence L-3401',
-      'installation électrique Bouches-du-Rhône',
-      'mise aux normes électrique',
-      'borne recharge Dudelange',
+      'électricien Pétange',
+      'dépannage électrique Luxembourg',
+      'électricien urgence Rodange',
+      'installation électrique Lamadelaine',
+      'mise aux normes électrique sud Luxembourg',
+      'borne recharge Minett',
     ],
     openGraph: {
-      title: `Électricien Dudelange | Dépannage 24/7`,
-      description: 'Intervention rapide en moins de 2h. Dépannage, installation, mise aux normes. Devis gratuit.',
+      title: `Électricien Professionnel à Pétange | Service 24/7`,
+      description: 'Dépannage urgent sous 2h, installations conformes, remise aux normes. Votre électricien de confiance dans le sud du Luxembourg.',
       url: baseUrl,
       siteName: COMPANY_INFO.name,
       locale: 'fr_FR',
@@ -26,41 +26,41 @@ export const PAGE_METADATA = {
   } as Metadata,
 
   services: {
-    title: `Nos Services Électriques | ${COMPANY_INFO.name}`,
-    description: 'Découvrez tous nos services : dépannage 24/7, installation électrique, mise aux normes, borne de recharge, domotique, éclairage LED. Électriciens qualifiés à Dudelange.',
+    title: `Services Électricité à Pétange | ${COMPANY_INFO.name}`,
+    description: 'Gamme complète de prestations électriques : urgences 24/7, pose complète, conformité réglementaire, wallbox voiture électrique, automatisation domotique, solutions LED. Professionnels certifiés dans le sud du Luxembourg.',
     openGraph: {
-      title: 'Nos Services Électriques | Dudelange',
-      description: 'Dépannage, installation, mise aux normes, borne de recharge, domotique, éclairage LED.',
+      title: 'Prestations Électriques Complètes | Pétange & Région',
+      description: 'Urgence, installation neuve, modernisation, recharge électrique, maison connectée, luminaires LED.',
       url: `${baseUrl}/nos-services`,
     },
   } as Metadata,
 
   contact: {
-    title: `Contact & Devis Gratuit | ${COMPANY_INFO.name}`,
-    description: `Contactez votre électricien à Dudelange. Devis gratuit sous 48h. Urgence 24/7 disponible. Tél: ${COMPANY_INFO.phone}. Réponse garantie en moins de 2h.`,
+    title: `Nous Contacter | Devis Sans Engagement | ${COMPANY_INFO.name}`,
+    description: `Joignez votre électricien à Pétange et alentours. Estimation gratuite transmise sous 48h. Astreinte d'urgence active 24/7. Téléphone: ${COMPANY_INFO.phone}. Engagement de réponse en moins de 2 heures.`,
     openGraph: {
-      title: 'Contact & Devis Gratuit | Électricien Dudelange',
-      description: 'Devis gratuit sous 48h. Urgence 24/7. Réponse garantie en 2h.',
+      title: 'Contactez-nous | Chiffrage Gratuit | Électricien Pétange',
+      description: 'Estimation sans frais sous 48h. Service d\'urgence 24/7. Retour assuré sous 2h.',
       url: `${baseUrl}/contact`,
     },
   } as Metadata,
 
   realisations: {
-    title: `Nos Réalisations | Projets Électriques à Dudelange`,
-    description: 'Découvrez nos réalisations électriques : installations complètes, rénovations, mises aux normes, bornes de recharge. Photos avant/après de nos projets à Dudelange et environs.',
+    title: `Portfolio de Projets | Travaux Électriques à Pétange`,
+    description: 'Consultez nos réalisations concrètes dans le sud du Luxembourg : câblages complets, réhabilitations, conformité normative, infrastructures de recharge. Documentation photographique avant/après de nos chantiers à Pétange, Rodange et environs.',
     openGraph: {
-      title: 'Nos Réalisations | Électricien Dudelange',
-      description: 'Photos avant/après de nos projets électriques réalisés.',
+      title: 'Portfolio Travaux Électriques | Pétange & Alentours',
+      description: 'Exemples concrets de nos installations et rénovations avec photos avant/après.',
       url: `${baseUrl}/realisations`,
     },
   } as Metadata,
 
   devisGratuit: {
-    title: `Devis Gratuit en 48h | ${COMPANY_INFO.name}`,
-    description: 'Obtenez votre devis électrique gratuit et sans engagement en moins de 48h. Formulaire rapide en 3 minutes. Électricien professionnel à Dudelange.',
+    title: `Estimation Gratuite Sous 48h | ${COMPANY_INFO.name}`,
+    description: 'Recevez votre chiffrage électrique gratuit sans obligation sous 48 heures maximum. Formulaire en ligne simple, 3 minutes suffisent. Professionnel qualifié à Pétange et dans tout le sud du Luxembourg.',
     openGraph: {
-      title: 'Devis Gratuit en 48h | Électricien Dudelange',
-      description: 'Devis gratuit et sans engagement. Réponse en 48h maximum.',
+      title: 'Chiffrage Gratuit Rapide | Électricien Pétange',
+      description: 'Estimation sans frais ni engagement. Réponse garantie en 48 heures.',
       url: `${baseUrl}/devis-gratuit`,
     },
   } as Metadata,
@@ -73,9 +73,9 @@ export function generateServiceMetadata(
 ): Metadata {
   return {
     title: `${title} | ${COMPANY_INFO.name}`,
-    description: `${description} Expert électricien à Dudelange. Devis gratuit. Intervention rapide.`,
+    description: `${description} Spécialiste électricité dans le sud du Luxembourg. Chiffrage sans frais. Réactivité assurée.`,
     openGraph: {
-      title: `${title} | Dudelange`,
+      title: `${title} | Pétange & Région`,
       description: description,
       url: `${baseUrl}/${slug}`,
       type: 'website',

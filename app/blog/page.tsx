@@ -7,10 +7,10 @@ import { Button } from '@/components/ui/Button';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog Électricité - Conseils & Dépannage | Dudelange',
-  description: 'Tous nos conseils d\'expert en électricité : dépannage, sécurité, normes. Solutions aux pannes courantes. Électricien professionnel à Dudelange.',
+  title: 'Blog Électricité - Conseils & Dépannage | Pétange',
+  description: 'Tous nos conseils d\'expert en électricité : dépannage, sécurité, normes. Solutions aux pannes courantes. Électricien professionnel à Pétange.',
   openGraph: {
-    title: 'Blog Électricité - Conseils & Dépannage | Dudelange',
+    title: 'Blog Électricité - Conseils & Dépannage | Pétange',
     description: 'Tous nos conseils d\'expert en électricité : dépannage, sécurité, normes. Solutions aux pannes courantes.',
     type: 'website',
   },
@@ -117,7 +117,7 @@ export default function BlogPage() {
             Un Problème Électrique ?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Nos électriciens interviennent 24/7 à Dudelange et dans un rayon de 30km
+            Nos électriciens interviennent 24/7 à Pétange et dans un rayon de 30km
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

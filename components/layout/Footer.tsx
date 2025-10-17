@@ -18,13 +18,13 @@ export const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-lg">Électricien</span>
-                <span className="text-sm text-white/80">Dudelange</span>
+                <span className="text-sm text-white/80">Pétange</span>
               </div>
             </div>
             <p className="text-white/80 leading-relaxed mb-4">
-              Électricien professionnel à Dudelange. Dépannage 24/7, installation,
-              mise aux normes. Plus de {currentYear - COMPANY_INFO.yearFounded} ans d&apos;expérience
-              au service des particuliers.
+              Professionnel de l&apos;électricité à Pétange. Service d&apos;urgence 24/7, installations complètes,
+              conformité normative. Plus de {currentYear - COMPANY_INFO.yearFounded} années d&apos;expertise
+              pour les particuliers et entreprises du sud Luxembourg.
             </p>
             <div className="flex space-x-3">
               <a
@@ -167,7 +167,7 @@ export const Footer = () => {
                   <p>Sam: {COMPANY_INFO.openingHours.saturday}</p>
                   <p>Dim: {COMPANY_INFO.openingHours.sunday}</p>
                   {COMPANY_INFO.emergency24 && (
-                    <p className="text-accent font-semibold mt-1">Urgences 24/7</p>
+                    <p className="text-accent font-semibold mt-1">Astreinte 24/7</p>
                   )}
                 </div>
               </li>
@@ -185,9 +185,9 @@ export const Footer = () => {
               )}
             </p>
             <div className="flex flex-wrap justify-center md:justify-end gap-4 text-sm text-white/60">
-              <span>✓ Certifié Qualifié</span>
-              <span>✓ Garantie Décennale</span>
-              <span>✓ Assurance RC Pro</span>
+              <span>✓ Technicien Certifié</span>
+              <span>✓ Protection Décennale</span>
+              <span>✓ RC Professionnelle</span>
             </div>
           </div>
         </div>

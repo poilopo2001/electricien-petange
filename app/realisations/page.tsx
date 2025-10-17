@@ -14,7 +14,7 @@ const PROJECTS = [
     id: 1,
     title: 'Installation Électrique Complète - Maison Neuve',
     category: 'Installation Neuve',
-    location: 'Dudelange',
+    location: 'Pétange',
     date: 'Décembre 2024',
     image: getImageUrl('realisation-installation-neuve'),
     description: 'Installation électrique complète pour une maison de 150m². Tableau électrique, câblage, prises, interrupteurs, éclairage LED.',
@@ -74,7 +74,7 @@ const PROJECTS = [
     id: 5,
     title: 'Dépannage Urgence - Panne Électrique Totale',
     category: 'Dépannage d\'Urgence',
-    location: 'Dudelange',
+    location: 'Pétange',
     date: 'Décembre 2024',
     image: getImageUrl('realisation-depannage-urgence'),
     description: 'Intervention d\'urgence dimanche soir pour panne électrique totale. Diagnostic et réparation en moins de 2 heures.',
@@ -122,7 +122,7 @@ export default function RealisationsPage() {
             Nos Réalisations
           </h1>
           <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Découvrez nos projets électriques réalisés à Dudelange et dans toute la
+            Découvrez nos projets électriques réalisés à Pétange et dans toute la
             Bouches-du-Rhône. Travail soigné et conforme aux normes.
           </p>
         </div>
@@ -182,7 +182,7 @@ export default function RealisationsPage() {
                 <div className="relative h-64 overflow-hidden">
                   <Image
                     src={project.image}
-                    alt={`${project.title} - Électricien Dudelange`}
+                    alt={`${project.title} - Électricien Pétange`}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />

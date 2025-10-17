@@ -20,11 +20,11 @@ export const ServicesGrid = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Nos Services Électriques
+            Notre Gamme de Prestations Électriques
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            De l&apos;urgence au projet d&apos;installation complet, nous intervenons pour
-            tous vos besoins électriques
+            Du dépannage express aux installations complètes, nous prenons en charge
+            l&apos;intégralité de vos besoins en électricité
           </p>
         </motion.div>
 
@@ -42,7 +42,7 @@ export const ServicesGrid = () => {
               <div className="relative h-56 overflow-hidden">
                 <Image
                   src={service.image}
-                  alt={`${service.title} - Électricien Dudelange`}
+                  alt={`${service.title} - Électricien Pétange`}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
                 />
@@ -83,7 +83,7 @@ export const ServicesGrid = () => {
                       icon={ArrowRight}
                       iconPosition="right"
                     >
-                      En Savoir Plus
+                      Détails
                     </Button>
                   </Link>
                   <Link href="/devis-gratuit">
@@ -93,7 +93,7 @@ export const ServicesGrid = () => {
                       className="flex-1"
                       icon={Zap}
                     >
-                      Devis
+                      Chiffrage
                     </Button>
                   </Link>
                 </div>
@@ -111,7 +111,7 @@ export const ServicesGrid = () => {
         >
           <Link href="/nos-services">
             <Button variant="primary" size="lg">
-              Voir Tous Nos Services
+              Découvrir Toutes Nos Prestations
             </Button>
           </Link>
         </motion.div>

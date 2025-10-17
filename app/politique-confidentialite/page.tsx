@@ -4,8 +4,8 @@ import { Shield, Eye, Lock, UserCheck, Database, FileText } from 'lucide-react';
 import { COMPANY_INFO } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Politique de Confidentialité | Électricien Dudelange',
-  description: 'Politique de confidentialité et protection des données personnelles du site Électricien Dudelange.',
+  title: 'Politique de Confidentialité | Électricien Pétange',
+  description: 'Politique de confidentialité et protection des données personnelles du site Électricien Pétange.',
 };
 
 export default function PolitiqueConfidentialitePage() {

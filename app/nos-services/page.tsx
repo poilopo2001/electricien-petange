@@ -19,7 +19,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
             De l&apos;urgence au projet d&apos;installation complet, nous intervenons pour tous vos
-            besoins électriques à Dudelange et environs
+            besoins électriques à Pétange et environs
           </p>
         </div>
       </section>
@@ -37,7 +37,7 @@ export default function ServicesPage() {
                 <div className="relative h-64">
                   <Image
                     src={service.image}
-                    alt={`${service.title} - Électricien Dudelange`}
+                    alt={`${service.title} - Électricien Pétange`}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-500"
                   />

@@ -17,10 +17,10 @@ export const ProcessTimeline = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Comment Nous Intervenons
+            Notre Méthode de Travail
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Un processus transparent et efficace pour votre sérénité
+            Une démarche claire et structurée pour votre tranquillité d&apos;esprit
           </p>
         </motion.div>
 

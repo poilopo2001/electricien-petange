@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!post) return {};
 
   return {
-    title: `${post.title} | Électricien Dudelange`,
+    title: `${post.title} | Électricien Pétange`,
     description: post.metaDescription,
     keywords: post.keywords.join(', '),
     openGraph: {
@@ -165,7 +165,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   <div>
                     <h3 className="text-2xl font-bold mb-2">Besoin d&apos;une Intervention d&apos;Urgence ?</h3>
                     <p className="text-white/90">
-                      Nos électriciens interviennent 24/7 à Dudelange et environs
+                      Nos électriciens interviennent 24/7 à Pétange et environs
                     </p>
                   </div>
                   <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, '')}`}>

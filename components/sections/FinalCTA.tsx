@@ -34,11 +34,11 @@ export const FinalCTA = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-            Prêt à Démarrer Votre Projet ?
+            Lancez Votre Projet Électrique Maintenant
           </h2>
           <p className="text-xl sm:text-2xl text-white/90 mb-12 leading-relaxed">
-            Obtenez votre devis gratuit en moins de 48h ou contactez-nous
-            pour une urgence 24/7
+            Recevez votre chiffrage sans frais sous 48 heures ou appelez-nous
+            pour toute urgence, service actif 24/7
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
@@ -49,7 +49,7 @@ export const FinalCTA = () => {
                 icon={Zap}
                 className="w-full sm:w-auto bg-white text-primary hover:bg-gray-100 shadow-2xl"
               >
-                Obtenir mon Devis Gratuit
+                Demander mon Estimation Gratuite
               </Button>
             </Link>
 
@@ -60,7 +60,7 @@ export const FinalCTA = () => {
                 icon={Phone}
                 className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-accent shadow-xl"
               >
-                Appeler Maintenant
+                Nous Joindre Immédiatement
               </Button>
             </a>
           </div>
@@ -69,15 +69,15 @@ export const FinalCTA = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-white">
               <div>
                 <div className="text-3xl font-bold mb-1">&lt; 2h</div>
-                <div className="text-white/80 text-sm">Intervention Urgence</div>
+                <div className="text-white/80 text-sm">Délai d&apos;Arrivée Urgence</div>
               </div>
               <div>
                 <div className="text-3xl font-bold mb-1">48h</div>
-                <div className="text-white/80 text-sm">Devis Gratuit</div>
+                <div className="text-white/80 text-sm">Chiffrage Sans Frais</div>
               </div>
               <div>
                 <div className="text-3xl font-bold mb-1">100%</div>
-                <div className="text-white/80 text-sm">Satisfaction Client</div>
+                <div className="text-white/80 text-sm">Clients Satisfaits</div>
               </div>
             </div>
           </div>

@@ -114,7 +114,7 @@ export default function ContactPage() {
               <h3 className="font-bold text-gray-900 mb-4">Zone d&apos;Intervention</h3>
               <div className="bg-gray-200 rounded-lg h-48 flex items-center justify-center">
                 <p className="text-gray-500">
-                  Dudelange et 30km alentours
+                  Pétange et 30km alentours
                 </p>
               </div>
             </div>

@@ -4,8 +4,8 @@ import { Building, Phone, Mail, MapPin } from 'lucide-react';
 import { COMPANY_INFO } from '@/lib/constants';
 
 export const metadata = {
-  title: 'Mentions Légales | Électricien Dudelange',
-  description: 'Mentions légales du site Électricien Dudelange. Informations légales et conditions d\'utilisation.',
+  title: 'Mentions Légales | Électricien Pétange',
+  description: 'Mentions légales du site Électricien Pétange. Informations légales et conditions d\'utilisation.',
 };
 
 export default function MentionsLegalesPage() {
